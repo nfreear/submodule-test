@@ -1,3 +1,4 @@
 [submodule "sites/all/modules/advanced_help"]
 	path = sites/all/modules/advanced_help
-	url = ssh://git.drupal.org/project/advanced_help.git
+	url = http://git.drupal.org/project/advanced_help.git
+#	url = ssh://git@git.drupal.org/project/advanced_help.git

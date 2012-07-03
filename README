@@ -1,0 +1,36 @@
+submodule-test
+==============
+
+
+Global setup:
+ Set up git
+  git config --global user.name "Nick Freear"
+  git config --global user.email nfreear@yahoo.co.uk
+
+Next steps:
+  mkdir submodule-test
+  cd submodule-test
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin https://github.com/nfreear/submodule-test.git
+  git push -u origin master
+
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin https://github.com/nfreear/submodule-test.git
+  git push -u origin master
+
+Importing a Subversion Repo?
+  Check out the guide for step by step instructions.
+
+When you're done:
+  Continue
+
+
+Try insteadOf:
+  http://blog.mraw.org/2011/05/24/Git_tip_of_the_day_insteadOf/
+
+
+[End]
