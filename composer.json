@@ -1,0 +1,17 @@
+{
+    "name": "nfreear/submodule-test",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Nick Freear",
+            "email": "me@example.org"
+        }
+    ],
+    "require": {
+        "josegonzalez/dotenv": "dev-master"
+    }
+
+    "//": [
+        "Cheatsheet/interactive:  http://composer.json.jolicode.com/"
+    ]
+}
